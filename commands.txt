@@ -1,0 +1,10 @@
+git config --global user.name= "ayush"
+git config --global user.email= "rajendrajha2631980@gmail.com"
+git init
+git add . 
+git commit -m "Initial commit"
+git status
+git remote add origin <url>
+ssh-keygen -t rsa -b 4096 -C <email>
+cat <ssh-key>
+git push origin master
